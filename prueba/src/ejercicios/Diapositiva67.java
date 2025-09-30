@@ -1,0 +1,16 @@
+package ejercicios;
+
+import java.util.Scanner;
+
+public class Diapositiva67 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("¿Cuántos años tienes?");
+
+		int edad = sc.nextInt();
+
+	}
+
+}
