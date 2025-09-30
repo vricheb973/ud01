@@ -1,5 +1,6 @@
 package ejercicios;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Diapositiva72 {
@@ -17,10 +18,12 @@ public class Diapositiva72 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println();
+		System.out.println("Dime un número: ");
+		int numero = sc.nextInt();
 		
+		boolean esPar = (numero % 2 == 0);
 		
-		
+		System.out.printf("El número %d es par: %b \n", numero, esPar);
 		
 	}
 

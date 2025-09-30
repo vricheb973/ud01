@@ -24,7 +24,6 @@ public class Diapositiva67 {
 		// O de esta otra
 		System.out.println("Es mayor de edad: " + mayorEdad);
 		
-		
 	}
 
 }
