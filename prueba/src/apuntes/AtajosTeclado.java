@@ -7,6 +7,8 @@ public class AtajosTeclado {
 	 * Ctrl + Shift + O - AutoImports
 	 * F11 - Ejecutar java 
 	 * Ctrl + Shift + F
+	 * Shift + flecha (letras)
+	 * Ctrl + Shift + flecha (palabras)
 	 * 
 	 * 	
 	 */
