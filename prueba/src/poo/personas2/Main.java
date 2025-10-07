@@ -1,4 +1,4 @@
-package poo.personas;
+package poo.personas2;
 
 import java.util.Scanner;
 
@@ -7,19 +7,13 @@ public class Main {
 	public static void main(String[] args) {
 
 		// tipo nombre = valor;		
-		Persona p1 = new Persona();
-		p1.nombre = null;
-		p1.edad = -30;
-		p1.estatura = 1;
+		Persona p1 = new Persona("Pepe", 28, 1.89);
 		
 		p1.saludar();
 		Persona.mostrarDiaSemana();
 
 
-		Persona p2 = new Persona();
-		p2.nombre = "Paco";
-		p2.edad = 38;
-		p2.estatura = 1.70;
+		Persona p2 = new Persona("Paco", 38, 1.70);
 		
 		
 		
