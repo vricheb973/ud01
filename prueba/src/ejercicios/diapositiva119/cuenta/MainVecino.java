@@ -7,9 +7,9 @@ public class MainVecino {
 		CuentaCorriente cc = new CuentaCorriente("11111111A", "Pepe");
 		
 		cc.dni = "222222222B";
-		cc.nombreTitular = "Vladi";
+		cc.nombreTitular = null;
 		
-		cc.saldo = 1000000000;
+		cc.saldo = -765768576;
 		
 		
 		
