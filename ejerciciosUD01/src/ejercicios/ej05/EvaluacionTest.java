@@ -5,6 +5,10 @@ public class EvaluacionTest {
 	private int correctas;
 	private int incorrectas;
 	private int blanco;
+
+	private final int CORRECTAS = 6;
+	private final int INCORRECTAS = -1;
+	private final int EN_BLANCO = 0;
 	
 	public EvaluacionTest(int correctas, int incorrectas, int blanco) {
 		this.correctas = correctas;
@@ -37,7 +41,7 @@ public class EvaluacionTest {
 	}
 	
 	public void calcularNotaFinal() {
-		int notaFinal = this.correctas*5 + this.incorrectas*-1 + this.blanco*0;
+		int notaFinal = this.correctas*CORRECTAS + this.incorrectas*INCORRECTAS + this.blanco*EN_BLANCO;
 		int notaMaxima = (this.correctas+this.incorrectas+this.blanco)*5;
 		System.out.println("La nota final es " + notaFinal + "/" + notaMaxima); 
 	}

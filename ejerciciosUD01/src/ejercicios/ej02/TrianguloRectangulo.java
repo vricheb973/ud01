@@ -11,7 +11,7 @@ public class TrianguloRectangulo {
 	}
 	
 	public void getCatetoA() {
-		System.out.println(catetoA);
+		System.out.println(this.catetoA);
 	}
 	
 	public void setCatetoA(double catetoA) {
@@ -19,7 +19,7 @@ public class TrianguloRectangulo {
 	}
 
 	public void getCatetoB() {
-		System.out.println(catetoB);
+		System.out.println(this.catetoB);
 	}
 	
 	public void setCatetoB(double catetoB) {
@@ -27,7 +27,7 @@ public class TrianguloRectangulo {
 	}
 	
 	public void calcularHipotenusa() {
-		double hipotenusa = Math.sqrt(Math.pow(catetoA, 2) + Math.pow(catetoB, 2));
+		double hipotenusa = Math.sqrt(Math.pow(this.catetoA, 2) + Math.pow(this.catetoB, 2));
 		System.out.printf("La hipotenusa es %.2f \n", hipotenusa);	
 	}
 	

@@ -5,6 +5,9 @@ public class Uno {
 	public static void main(String[] args) {
 
 		Math.abs(-60);
+		
+		// tipo identificador;
+		// tipo identificador = valor;
 
 	}
 
