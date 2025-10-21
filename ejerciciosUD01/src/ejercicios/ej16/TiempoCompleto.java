@@ -21,8 +21,9 @@ public class TiempoCompleto {
 		int minutos = (this.segundos / 60) % 60;
 		int horas = this.segundos / 3600;
 		
-		
-		System.out.println("Son " + horas + "h, " + minutos + " minutos y " + segundos + " segundos. ");
+
+//		System.out.println("Son " + horas + "h, " + minutos + " minutos y " + segundos + " segundos. ");
+		System.out.printf("%02d:%02d:%02d", horas, minutos, segundos);
 	}
 
 }
