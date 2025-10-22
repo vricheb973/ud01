@@ -19,7 +19,7 @@ public class Intercambio {
 	}
 
 	public void getB() {
-		System.out.println(this.a);
+		System.out.println(this.b);
 	}
 
 	public void setB(int b) {
